@@ -1,6 +1,6 @@
 # WpfRangeSlider
 WPF Range Slider - from [GitHub](https://github.com/funwaywang/WpfRangeSlider)  
-Downloaded 9 Jul 2025;&nbsp; buit with VS Community 2022
+Downloaded 9 Jul 2025;&nbsp; built with VS Community 2022
 - changed to .NET 4.8
 - `RangeSlider\RangeSlider.sln` builds a demo app
 
