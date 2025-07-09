@@ -1,18 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace FunwayControls
 {
@@ -77,13 +67,13 @@ namespace FunwayControls
         public double Start
         {
             get => (double)GetValue(StartProperty);
-            set => SetValue(StartProperty, value);
+            set => SetValue(StartProperty, Math.Round(value, 2));
         }
 
         public double End
         {
             get => (double)GetValue(EndProperty);
-            set => SetValue(EndProperty, value);
+            set => SetValue(EndProperty, Math.Round(value, 2));
         }
 
         public bool IsMoveToPointEnabled
