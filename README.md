@@ -38,7 +38,7 @@ If you want use it into your project, Just import two files below:
 - slider instance:&nbsp;
 ```
 <local:RangeSlider Orientation="Horizontal" Width="450" Maximum="3" Minimum="0"
-					Start="{Binding Stlo}" End="{Binding Sthi}" Background="Blue"/>
+			Start="{Binding Stlo}" End="{Binding Sthi}" Background="Blue"/>
 ```
 This yields a working (if ugly) range slider in a SimHub plugin:  
 ![](Blue.jpg)
